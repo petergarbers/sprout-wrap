@@ -1,8 +1,6 @@
 recipes:
 
 # base (required by sprout)
-- sprout-base
-- sprout-base::bash_it
 - homebrew
 - homebrew::install_taps
 - homebrew::install_formulas
@@ -15,46 +13,37 @@ recipes:
 # settings
 - sprout-osx-settings
 - sprout-osx-settings::dock_preferences
+- sprout-osx-settings::defaults_fast_key_repeat_rate
+- sprout-osx-settings::finder_display_full_path
+- sprout-osx-settings::set_finder_show_user_home_in_sidebar
+- sprout-osx-settings::function_keys
 - sprout-terminal
 - sprout-ssh::known_hosts_github
+
+# ssh
+- sprout-ssh
 
 # development (general)
 - sprout-base::workspace_directory
 - sprout-git
-- sprout-git::default_editor
 - sprout-git::projects
 - sprout-git::git_scripts
 
-# development (rails)
-- sprout-rbenv
-- sprout-ruby
-- sprout-mysql
-- sprout-postgresql
-
-# apps (editors)
-- sprout-osx-apps::textmate_preferences
-- sprout-jetbrains-editors::rubymine
+# editors
+- sprout-jetbrains-editors::intellij_ce
 
 node_attributes:
   sprout:
     git:
-      domain: pivotal.io
+      domain: garbers.me
       authors:
-        - initials: ah
-          name: Abhijit Hiremagalur
-          username: abhi
-        - initials: bc
-          name: Brian Cunnie
-          username: cunnie
-        - initials: jrhb
-          name: Jonathan Barnes
-        - initials: lw
-          name: Luke Winikates
-          username: lwinikates
+        - initials: pg
+          name: Peter Garbers
+          username: petergarbers
       projects:
         -
-          name: sprout-wrap
-          url: https://github.com/pivotal-sprout/sprout-wrap.git
+          name: .zsh
+          url: https://github.com/robbyrussell/oh-my-zsh.git
     terminal:
       default_profile: 'Pro'
     settings:
@@ -69,32 +58,25 @@ node_attributes:
     taps:
       - universal-ctags/universal-ctags
     formulas:
+      - ag
+      - awscli
+      - curl
+      - emacs --with-cocoa
       - name: universal-ctags
         head: true
-      - ag
-      - chromedriver
-      - imagemagick
-      - node
-      - pstree
-      - qt
-      - ssh-copy-id
-      - tmux
-      - tree
-      - watch
+      - git-flow
+      - leiningen
       - wget
-      - rbenv-binstubs
     casks:
+      - dropbox
       - firefox
+      - flowdock
       - flycut
       - rowanj-gitx
-      - github-desktop
+      - gitify
       - google-chrome
-      - google-drive
-      - google-hangouts
-      - macvim
+      - google-cloud-sdk
+      - java
       - skype
-      - textmate
-      - vagrant
-      - virtualbox
-      - xquartz
-      - xscope
+      - slack
+      - zoomus
