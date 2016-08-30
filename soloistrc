@@ -60,6 +60,7 @@ node_attributes:
     formulas:
       - ag
       - awscli
+      - cocoapods
       - curl
       - emacs --with-cocoa
       - name: universal-ctags
@@ -77,6 +78,8 @@ node_attributes:
       - google-chrome
       - google-cloud-sdk
       - java
+      - postico
       - skype
       - slack
+      - spotify
       - zoomus
