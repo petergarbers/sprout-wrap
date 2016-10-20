@@ -60,26 +60,36 @@ node_attributes:
     formulas:
       - ag
       - awscli
+      - carthage
       - cocoapods
       - curl
+      - docker-cloud
       - emacs --with-cocoa
       - name: universal-ctags
         head: true
+      - fswatch
       - git-flow
       - leiningen
+      - kubernetes-cli
+      - rbenv
       - wget
+      - yarn
     casks:
       - dropbox
       - firefox
-      - flowdock
       - flycut
       - rowanj-gitx
       - gitify
       - google-chrome
-      - google-cloud-sdk
       - java
+      - paw
       - postico
+      - pomotodo
       - skype
       - slack
       - spotify
+      - textual
+      - utorrent
+      - vagrant
+      - virtualbox
       - zoomus
