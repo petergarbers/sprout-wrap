@@ -59,6 +59,7 @@ node_attributes:
       - universal-ctags/universal-ctags
     formulas:
       - ag
+      - autojump
       - awscli
       - carthage
       - cocoapods
@@ -67,24 +68,25 @@ node_attributes:
       - emacs --with-cocoa
       - name: universal-ctags
         head: true
-      - fswatch
       - git-flow
+      - git-lfs
+      - kubernetes-helm
       - leiningen
       - kubernetes-cli
       - rbenv
       - wget
-      - yarn
     casks:
+      - atom
       - dropbox
       - firefox
       - flycut
       - rowanj-gitx
-      - gitify
       - google-chrome
       - java
-      - paw
-      - postico
       - pomotodo
+      - postico
+      - screenhero
+      - sequel-pro
       - skype
       - slack
       - spotify
