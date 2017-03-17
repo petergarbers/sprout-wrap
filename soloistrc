@@ -59,8 +59,10 @@ node_attributes:
       - universal-ctags/universal-ctags
     formulas:
       - ag
+      - antigen
       - autojump
       - awscli
+      - boot-clj
       - carthage
       - cocoapods
       - curl
@@ -73,6 +75,7 @@ node_attributes:
       - kubernetes-helm
       - leiningen
       - kubernetes-cli
+      - phantomjs
       - rbenv
       - wget
     casks:
