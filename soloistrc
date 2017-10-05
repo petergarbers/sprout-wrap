@@ -66,7 +66,6 @@ node_attributes:
       - carthage
       - cocoapods
       - curl
-      - docker-cloud
       - emacs --with-cocoa
       - name: universal-ctags
         head: true
@@ -74,9 +73,10 @@ node_attributes:
       - git-lfs
       - kubernetes-helm
       - leiningen
+      - kops
       - kubernetes-cli
-      - phantomjs
       - rbenv
+      - terraform
       - wget
     casks:
       - atom
@@ -85,14 +85,18 @@ node_attributes:
       - flycut
       - rowanj-gitx
       - google-chrome
+      - google-cloud-sdk
       - java
+      - minikube
       - pomotodo
       - postico
       - screenhero
       - sequel-pro
+      - skitch
       - skype
       - slack
       - spotify
+      - telegram
       - textual
       - utorrent
       - vagrant
