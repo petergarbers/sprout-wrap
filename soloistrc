@@ -75,6 +75,7 @@ node_attributes:
       - leiningen
       - kops
       - kubernetes-cli
+      - r
       - rbenv
       - terraform
       - wget
@@ -82,6 +83,7 @@ node_attributes:
       - atom
       - dropbox
       - firefox
+      - firefoxdeveloperedition
       - flycut
       - rowanj-gitx
       - google-chrome
@@ -90,6 +92,7 @@ node_attributes:
       - minikube
       - pomotodo
       - postico
+      - rstudio
       - screenhero
       - sequel-pro
       - skitch
